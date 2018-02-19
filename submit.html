@@ -1,0 +1,160 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet"> <!-- Font ophalen via google -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font awesome icoontjes extern gehost -->
+    <style>
+        html, body {
+            margin:0;
+            padding:0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        body { /*Gegenereerde achtergrond */
+            width: 100wh;
+            height: 90vh;
+            color: #fff;
+            background: linear-gradient(-45deg, #00e8ee, #4ae700, #d50012, #8c00d5);
+            background-size: 400% 400%;
+            -webkit-animation: Gradient 15s ease infinite;
+            -moz-animation: Gradient 15s ease infinite;
+            animation: Gradient 15s ease infinite;
+        }
+
+        @-webkit-keyframes Gradient {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        @-moz-keyframes Gradient {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        @keyframes Gradient {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto; /* Centreren */
+            padding: 30px;
+        }
+        .heading, h1 {
+            font-weight: 100;
+            text-align: center;
+            color: #ffffff;
+            font-size: 5vw;
+        }
+
+        .content {
+            text-align:center;
+            font-weight: 300;
+            color: #ffffff;
+            font-size: 20px;
+            border-top: 3px solid #ffffff;
+            border-bottom: 3px solid #ffffff;
+            padding: 30px 0
+        }
+
+        .footer {
+        }
+
+        .footer ul {
+            padding:0;
+            text-align:center;
+        }
+
+        .footer li {
+            display:inline-block;
+            margin: 0 12px;
+        }
+
+        .footer li a, .link {
+            color: #ffffff;
+            text-decoration: none;
+            font-size:20px;
+            text-transform: uppercase;
+            transition: .2s all ease-in;
+        }
+
+        .footer li a:hover {
+            text-shadow: 4px 3px 6px rgba(0, 0, 0, 0);
+        }
+
+        .social-media a {
+            margin:0 10px;
+            font-size: 25px;
+        }
+
+        img {
+            max-width:100%;
+        }
+
+        .round {
+            border-radius:100%;
+            width:200px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Verstuurd!</title>
+</head>
+<body>
+
+<div class="container"> <!-- Om alles in het midden te krijgen -->
+    <h1>
+        Gelukt!
+    </h1>
+
+    <div class="content">
+        <p>
+            Uw informatie is verstuurd! U ontvangt zo snel mogelijk een reactie terug.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/fayaazarmaan.nabie" target="_blank" class="link"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/fayaaz036/" target="_blank" class="link"><i class="fa fa-instagram"></i></a>
+        </div>
+
+
+
+
+    </div>
+    <div class="footer">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="aboutme.html">Over mezelf</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
