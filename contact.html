@@ -1,11 +1,6 @@
 <?php
 //variablen
-$naam='Fayaaz Nabie';
-$school='ROCvF';
-$leeftijd="16 Jaar oud";
-$afkomst='Surinaams/Hindoestaanse afkomst';
-$bijbaantje='Telesuper';
-$woonplaats='Almere Buiten'
+$naam='Fayaaz Nabie'
 
 ?>
 
@@ -91,7 +86,7 @@ $woonplaats='Almere Buiten'
             border-bottom: 3px solid #ffffff;
             padding: 30px 0
         }
-
+        /*de lijn aan de bovenkant en de onderkant*/
         .footer {
         }
 
@@ -116,7 +111,7 @@ $woonplaats='Almere Buiten'
         .footer li a:hover {
             text-shadow: 4px 3px 6px rgba(0, 0, 0, 0);
         }
-
+        /*icoontjes voor mijn social media*/
         .social-media a {
             margin:0 10px;
             font-size: 25px;
@@ -132,35 +127,48 @@ $woonplaats='Almere Buiten'
             margin-bottom: 20px;
         }
     </style>
-    <title>Over Mezelf</title>
+    <title>Contact</title>
+
 </head>
 <body>
-
-<div class="container"> <!-- Om alles in het midden te krijgen -->
+<!--Hier begint de info over mij-->
+<div class="container">
     <h1>
-        Over Mezelf
+        Fayaaz Nabie
     </h1>
 
-    <div class="content"><!-- alle fotos voor de showcase-->
-        <a href="https://imgur.com/9ONSh3B"> <img src="https://i.imgur.com/9ONSh3B.png" alt="Ik&Ma" class="round"></a>
-        <a href="https://imgur.com/S8PfGA2"><img src="https://i.imgur.com/S8PfGA2.jpg" alt="Ik&Pa" class="round"></a>
-        <a href="https://imgur.com/NshvBp7"><img src="https://i.imgur.com/NshvBp7.jpg" alt="Ik&Zusje" class="round"></a>
+    <div class="content">
         <p>
-            Wie ben ik eigelijk ?<br>
-            <br>
-
-            Ik ben Fayaaz Nabie , ik ben 16 oud en ik woon in Almere. Ik ben van Surinaamse en kan vloeiend Hindoestaans verstaan, alleen niet spreken helaas. Ik zit op het ROC van Flevoland in Almere.
-                Die foto's hierboven ? Dat is mijn gezin. Bij mij geldt de regel: 'Family above all'. Voor mijn gezin zou ik mijn handen in het vuur steken, en vice versa.<br>
-            <br>
-            <br>
-            Wat zijn mijn toekomstplannen ?<br>
-            <br>
-            Naast school heb ik ook een bijbaantje, namelijk bij Telesuper. Als ik mijn diploma voor Niveau 4 heb, wil ik graag naar de HBO. Het moment wanneer ik HBO niet haal is het voor mijzelf beter dat ik dan meer ga focussen op werk.<br>
-            Ook ga ik mijn ouders héél goed verzorgen op het moment dat ze dement(♡إن شاء الله) zijn. Het is voor mij een grote eer als ik hun zou mogen verzorgen, net zoals hun het ook voor mij doen.
-
-
-
+            Heeft u nog niet genoeg informatie over mij of wilt u meer over mij bekijken ? Hieronder staat een link naar mijn Instagram en Facebook.
+        </p><!--link naar mijn instagram of facebook-->
+        <div class="social-media">
+            <a href="https://www.facebook.com/fayaazarmaan.nabie" target="_blank" class="link"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/fayaaz036/" target="_blank" class="link"><i class="fa fa-instagram"></i></a>
+        </div>
+        <p>
+            Heeft u verder nog vragen ?
         </p>
+
+
+        <form method="post" action="Submit.php">
+
+            </tr>
+
+            <td align="center"><textarea type="text"  placeholder="Uw vraag (Verplicht)" name="contact" size="30"></textarea></td><br>
+
+
+            <td align="center"><textarea type="text"  placeholder="Uw E-Mail (Verplicht)" name="contact" size="30"></textarea></td><br>
+
+
+            </tr>
+
+
+            <td align="center"><textarea type="number"  name="phone" size="30" placeholder="Telefoonnummer (Niet Verplicht)"></textarea><br>
+                </tr>
+                </table>    <!--de reset en verstuur knop-->
+                <input type="reset" />
+                <input type="submit" />
+        </form>
 
 
     </div>
@@ -173,7 +181,7 @@ $woonplaats='Almere Buiten'
                 <a href="aboutme.html">Over mezelf</a>
             </li>
             <li>
-               <a href="contact.html">Contact</a>
+                <a href="contact.html">Contact</a>
             </li>
         </ul>
     </div>
